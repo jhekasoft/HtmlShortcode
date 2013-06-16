@@ -1,0 +1,14 @@
+{
+    "name": "jhekasoft/html-shortcode",
+    "description": "ZF2 module that allows render view helpers using HTML-code.",
+    "homepage": "https://github.com/jhekasoft/HtmlShortcode.git",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zend-version": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "HtmlShortcode": "src/",
+        }
+    }
+}
