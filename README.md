@@ -115,6 +115,8 @@ Samples:
 <span class="htmlshortcode" data-helper="soundBlock" data-params='[value3][{"size":"small"}]'></span>
 ```
 
+Second parameter in last example is in JSON format.
+
 The examples above are equivalent this php-code in view-script:
 
 ```php
@@ -123,6 +125,5 @@ echo $this->soundBlock('value1');
 echo $this->soundBlock('value2');
 
 echo $this->soundBlock('value3', array("size" => "small"));
-),
 ```
 
