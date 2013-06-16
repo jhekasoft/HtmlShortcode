@@ -9,6 +9,9 @@
     "autoload": {
         "psr-0": {
             "HtmlShortcode": "src/"
-        }
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }
